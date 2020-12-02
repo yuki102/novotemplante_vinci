@@ -16,12 +16,50 @@ h1 {
     animation-delay: 1s;
     
 }
+.case1 > img {
+    width: 300px;
+    border-radius: 5px;
+}
+.case1 {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 58px;
+    width: 891px;
+    
+}
+.section-cases{
+    margin-top: 50px;
+}
+.button-sabermais a {
+    text-decoration:  none;
+}
 
-
-
+.section-cases hr {
+background: whitesmoke;
+   
+}
+    .button-sabermais {
+    
+        width: 178px;
+        height: 42px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+        border-radius: 9px;
+        background: transparent linear-gradient(98deg,#a6550096 0%,#ECE5DD 100%) 0% 0% no-repeat;
+        border: none;
+        color: white;
+        font-weight: bold;
+    }
+figcaption {
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-left: 33px;
+}
 #conteudo-header-servicos {
     background: rgba(233, 223, 223, 0.192);
-    width: 500px;
+    width: 715px;
     display: block;
     margin: 0 auto;
     padding: 12px;
@@ -43,7 +81,7 @@ color: white;
 }
 .card-servicos1 {
     width: 360px;
-    background: white;
+    background:whitesmoke;
     height: 360px; 
     margin: 0 auto;
     border-radius: 5px;
@@ -59,7 +97,7 @@ font-size:14px;
 }
 .card-servicos3 {
     width: 360px;
-    background: white;
+    background: whitesmoke;
     height: 360px;
     margin: 0 auto;
     border-radius: 5px;
@@ -83,8 +121,23 @@ width: 169px;
 }
 .card-servicos2 {
     width: 360px;
-    background: white;
+    background:whitesmoke;
     height: 360px;
     margin: 0 auto;
     border-radius: 5px;
+}
+
+
+
+/* MEDIA QUERY */
+@media (max-width: 1114px){
+    .cards{
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+    }
+}
+@media (max-width: 1114px){
+    .card-servicos3{
+        margin-top:40px;
+    }
 }
