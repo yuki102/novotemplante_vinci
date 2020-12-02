@@ -1,0 +1,90 @@
+@keyframes h1 {
+
+ 
+
+}
+
+h1 {
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size:  32px;
+    color: white;
+    animation-name: h1;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    
+}
+
+
+
+#conteudo-header-servicos {
+    background: rgba(233, 223, 223, 0.192);
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    padding: 12px;
+}
+body{
+    background: #ed9121;
+}
+header{
+    margin-bottom: 50px;
+}
+
+.subtitle-servicos{
+font-size:18px;
+color: white;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card-servicos1 {
+    width: 360px;
+    background: white;
+    height: 360px; 
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.card-servicos1 > button {
+margin-top: 35px !important;
+   margin: 0 auto;
+   background: none;
+   border: none;
+}
+.description-card{
+font-size:14px;
+}
+.card-servicos3 {
+    width: 360px;
+    background: white;
+    height: 360px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.card-servicos3 > button {
+    margin-top: 30px !important;
+       margin: 0 auto;
+       background: none;
+       border: none;
+    }
+
+.card-servicos2 > button {
+    margin-top: 30px !important;
+       margin: 0 auto;
+       background: none;
+       border: none;
+    }
+button img{
+    height: 154px;
+width: 169px;
+}
+.card-servicos2 {
+    width: 360px;
+    background: white;
+    height: 360px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
